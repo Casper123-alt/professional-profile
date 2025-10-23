@@ -1,64 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Rouf Chowdhury | Professional Profile</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rouf Chowdhury | Engineer • AI Innovator • Entrepreneur</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7; color: #333; }
-    .header { text-align: center; padding: 40px 20px; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    .header img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; }
-    .header h1 { margin-top: 20px; font-size: 32px; }
-    .audio-player { margin-top: 20px; }
-    .content { max-width: 800px; margin: 40px auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    section { margin-bottom: 30px; }
-    section h2 { font-size: 24px; margin-bottom: 10px; }
-    section p, section ul { line-height: 1.6; }
-    ul { padding-left: 20px; }
-    a { color: #0073b1; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
+      color: #f4f4f4;
+    }
+    header {
+      text-align: center;
+      padding: 70px 20px 50px;
+    }
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00bfa6;
+      box-shadow: 0 0 25px rgba(0, 191, 166, 0.6), 0 0 40px rgba(0, 0, 0, 0.4);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .profile-photo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(0, 255, 230, 0.7), 0 0 60px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-top: 25px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+      color: #00bfa6;
+    }
+    p, li {
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    section {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 30px;
+      margin: 25px auto;
+      max-width: 900px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #00bfa6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      font-size: 0.9rem;
+      background: rgba(0,0,0,0.3);
+      margin-top: 50px;
+    }
+    .audio-player {
+      margin-top: 25px;
+    }
+    @media (max-width: 600px) {
+      .profile-photo {
+        width: 140px;
+        height: 140px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      section {
+        padding: 20px;
+        margin: 15px;
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="header">
-    <img src="https://drive.usercontent.google.com/download?id=1AWm3H__i8emhl-92IINbF3z3JzSO5F-j&export=view&authuser=0" alt="Rouf Chowdhury">
+  <header>
+    <img src="Photo.jpg" alt="Rouf Chowdhury" class="profile-photo" />
     <div class="audio-player">
       <audio controls autoplay loop>
-        <source src="https://drive.google.com/uc?id=16UmPZpGrfTZQXDJSgDa3guX1Ath8A90Z" type="audio/mpeg">
+        <source src="https://drive.google.com/uc?id=16UmPZpGrfTZQXDJSgDa3guX1Ath8A90Z" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
-    <h1>Rouf Chowdhury</h1>
-    <p>MEng student & TIM Ambassador at Carleton University. Founder of EasyFlex Activewear. Experienced engineer and business developer working across the UK, Hong Kong, USA and Canada, passionate about integrating AI into fashion and SaaS consulting.</p>
-  </div>
-  <div class="content">
-    <section>
-      <h2>About Me</h2>
-      <p>I am a Technology Innovation Management (TIM) master's student at Carleton University and serve as a TIM ambassador. With over eight years of experience across supply chain management, research & development and business development, I have worked in the UK, Hong Kong, the USA and Canada. My entrepreneurial journey includes founding <em>EasyFlex Activewear</em>, a brand dedicated to accessible and comfortable clothing. Currently, I work in SaaS consulting and explore large language models, retrieval‑augmented generation and intelligent agents.</p>
-      <p>I recently received the 2024 Nicol Internship Award and represent graduate students on Carleton’s Graduate Students’ Association council. I'm passionate about leveraging AI to drive innovation in business and the fashion industry.</p>
-    </section>
-    <section>
-      <h2>Research & Interests</h2>
-      <ul>
-        <li><strong>AI & Fashion:</strong> Exploring how artificial intelligence can perceive and understand fashion, enabling personalized styling and sustainable design.</li>
-        <li><strong>Perceiving Fashion through AI:</strong> Investigating whether large language models can generate human‑aligned descriptions of fashion elements from product images, helping build human‑aligned conversational fashion recommender systems.</li>
-        <li><strong>SaaS & Business Development:</strong> Driving business growth through software‑as‑a‑service solutions and strategic partnerships.</li>
-        <li><strong>Supply Chain & R&D:</strong> Applying engineering principles and data analytics to optimize supply chains and product development.</li>
-        <li><strong>AI Agents & RAG:</strong> Studying large language models, retrieval‑augmented generation and intelligent agents for next‑generation applications.</li>
-        <li><strong>Entrepreneurship:</strong> Building startups that bridge technology and human needs, such as EasyFlex Activewear.</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Current Focus</h2>
-      <p>My current work centres on integrating AI into the fashion industry and SaaS consulting. Through my research on “Perceiving Fashion through AI,” I study how machine learning models can recognize patterns, textures and styles to deliver personalized recommendations and enhance customer experiences. I’m also experimenting with retrieval‑augmented generation to build intelligent agents that streamline workflows and support decision‑making.</p>
-    </section>
-    <section>
-      <h2>Contact & Links</h2>
-      <ul>
-        <li><a href="https://carleton.ca/tim/people/rouf-chowdhury/" target="_blank">Carleton TIM Profile</a></li>
-        <li><a href="https://versali.com" target="_blank">Versali (EasyFlex Activewear)</a></li>
-        <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn Feed</a></li>
-      </ul>
-    </section>
-  </div>
+    <h1>Rouf Chowdhury (Rafi)</h1>
+    <p>Engineer • AI Innovator • Entrepreneur | Master of Engineering (Systems & Computer Engineering, TIM Program)</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am pursuing a <strong>Master of Engineering</strong> under the <strong>Systems and Computer Engineering Department</strong> at Carleton University, specializing in the <strong>Technology Innovation Management (TIM) Program</strong>. I bring around <strong>10 years of diverse professional experience</strong> across SaaS, Agent AI, fashion technology, engineered sportswear, and global supply chain operations.</p>
+    <p>As a business professional and entrepreneur, I have founded and scaled ventures like <strong>EasyFlex Activewear</strong> and co-developed <strong>Versali</strong> — bridging AI innovation and fashion design to create sustainable and high-performance activewear for global markets.</p>
+    <p>I am also a <strong>TIM Ambassador</strong> and recipient of both the <strong>Nicol Business Idea Award 2024</strong> and the <strong>Nicol Business Internship Award</strong> for excellence in innovation and entrepreneurship at Carleton University.</p>
+  </section>
+
+  <section>
+    <h2>Research & Achievements</h2>
+    <ul>
+      <li><strong>Perceiving Fashion through AI:</strong> CUREB-approved study exploring how large language models can generate human-aligned fashion element descriptions from product images.</li>
+      <li><strong>AI Agent Development:</strong> Working on conversational agents and retrieval-augmented generation systems for decision-making and supply-chain automation.</li>
+      <li><strong>Entrepreneurship:</strong> Founder of EasyFlex Activewear under Loomor, focused on sustainable and tech-integrated production between Bangladesh and Canada.</li>
+      <li><strong>Innovation Leadership:</strong> Serving as TIM Ambassador and Professional Representative at the Carleton Engineering Graduate Students’ Association (CEGSA).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience Highlights</h2>
+    <ul>
+      <li><strong>Actio Digital Canada Inc.</strong> — Business Development Team, contributing to <a href="https://develop-gemorv.actiosoftware.net/gerenciar/okr" target="_blank">Actio AI</a> projects in process automation and intelligent OKR management.</li>
+      <li><strong>ZASA Limited (UK):</strong> Assistant Manager of Merchandising — led multi-million-dollar projects with H&M, Puma, Oberalp, and Helly Hansen.</li>
+      <li><strong>Crystal Group & Fakir Apparels:</strong> Research and development roles in performance textiles, engineered sportswear, and manufacturing process optimization.</li>
+      <li><strong>Versali / EasyFlex Activewear:</strong> Co-founder and strategist for next-gen AI-integrated apparel solutions.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Current Focus</h2>
+    <p>I am exploring how <strong>Agent AI</strong> and <strong>retrieval-augmented intelligence</strong> can optimize operations across industries, from SaaS platforms to apparel ecosystems. My work merges engineering precision with creative entrepreneurship — developing scalable, ethical, and tech-driven solutions for the global market.</p>
+  </section>
+
+  <section>
+    <h2>Connect with Me</h2>
+    <ul>
+      <li><a href="https://carleton.ca/tim/people/rouf-chowdhury/" target="_blank">TIM Ambassador Profile @ Carleton University</a></li>
+      <li><a href="https://develop-gemorv.actiosoftware.net/gerenciar/okr" target="_blank">Actio AI Dashboard</a></li>
+      <li><a href="https://versali.com" target="_blank">Versali Official Website</a></li>
+      <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn Feed</a></li>
+      <li><a href="mailto:chowdhuryrouf@outlook.com">chowdhuryrouf@outlook.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 Rouf Chowdhury | Master of Engineering (TIM, Systems & Computer Engineering) | Designed with Versali Theme | Hosted on GitHub Pages
+  </footer>
 </body>
 </html>
